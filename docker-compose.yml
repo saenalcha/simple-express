@@ -10,7 +10,7 @@ services:
     restart: "unless-stopped"
   express:
     build:
-      context: ./server
+      context: src
     container_name: express
     expose:
       - "3000"
